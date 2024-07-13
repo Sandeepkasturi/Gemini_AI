@@ -10,7 +10,7 @@ def to_markdown(text):
 
 
 # Set up the Generative AI configuration with the API key
-genai.configure(api_key='AIzaSyBOc7WOykXVHvnU-GsMgCYZwoBqFERjQFI')
+genai.configure(api_key='Your_api_key')
 
 # Create a Generative Model instance (assuming 'gemini-pro' is a valid model)
 model = genai.GenerativeModel('gemini-pro')
